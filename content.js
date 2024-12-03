@@ -66,25 +66,6 @@ function solveShortAnswer() {
   for (var i = 0; i < answers.length; i++) {
     textBoxes[i].value = answers[i].innerText;
   }
-
-  // let something;
-  // for (textBox of textBoxes)
-  // {
-  // 	something = await $('#'+textBox.id).change();
-  // }
-
-  // for (textBox of textBoxes)
-  // {
-  // 	something = await $('#'+textBox.id).focus();
-  // }
-
-  // console.log(something)
-  // for (var checkButton=0;  checkButton < document.getElementsByClassName('check-button').length; checkButton++)
-  // {
-  // 	document.getElementsByClassName('check-button')[checkButton].click();
-  // 	console.log("clicked check button");
-
-  // }
 }
 
 function solveAll() {

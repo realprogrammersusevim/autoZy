@@ -32,5 +32,3 @@ function solveMultipleChoice() {
     radio.click();
   }
 }
-
-console.log("i'm wokring");
